@@ -11,17 +11,17 @@ This project was a brief 1-week sprint where our team tried to complete an MVP f
 
 ## Technologies Used
 
-React
-Node
-Express
-Axios
-Styled-Components
-Mongo
-Mongoose
-JSON Web Tokens
-AWS (EC2)
-Docker
-Webpack
+- React
+- Node
+- Express
+- Axios
+- Styled-Components
+- Mongo
+- Mongoose
+- JSON Web Tokens
+- AWS (EC2)
+- Docker
+- Webpack
 
 ## Project Architecture
 
@@ -33,28 +33,22 @@ Accounts-service contains source code and database for user authentication.
 
 ## Team Responsibilities
 
-#### Michael Smith
-Product Manager & Full Stack Engineer
+#### Michael Smith - Product Manager & Full Stack Engineer
 
-#### Michael Elliott
-Architecture Owner & Dev-ops
+#### Michael Elliott - Architecture Owner & Dev-ops
 
-#### Daniel Kosykh
-Backend Engineer
+#### Daniel Kosykh - Backend Engineer
 
-#### Jacob Peterson
-UI/UX Owner & Frontend Engineer
+#### Jacob Peterson - UI/UX Owner & Frontend Engineer
 
-#### Kevin Ng
-Frontend Engineer
+#### Kevin Ng - Frontend Engineer
 
-#### Ricky Zhao
-Frontend Engineer
+#### Ricky Zhao - Frontend Engineer
 
 ## To launch is provided per folder README.md.
 This requires 3 separate server instances.
 
-## Original project repository for backend can be found [here]: https://github.com/BlueOcean-2021/backend-jobsite
+## Original project repository for backend can be found [here](https://github.com/BlueOcean-2021/backend-jobsite)
 
 ## Gallery
 
