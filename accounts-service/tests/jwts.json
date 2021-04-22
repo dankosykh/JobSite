@@ -1,0 +1,14 @@
+[
+    {
+        "email": "user2@gmail.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA2NDkxOGQwZDQyMTg2YWFjZGE5NzZmIn0sImlhdCI6MTYxNzIyMjUzNSwiZXhwIjoxNjE3MjU4NTM1fQ.jmiT_Pk9-jmH9GL5WVrogV8KpdfYCIWKcnzzj-HJcVA"
+    },
+    {
+        "email": "user3@gmail.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA2NDkxOGQwZDQyMTg2YWFjZGE5NzZmIn0sImlhdCI6MTYxNzIyMjUzNSwiZXhwIjoxNjE3MjU4NTM1fQ.jmiT_Pk9-jmH9GL5WVrogV8KpdfYCIWKcnzzj-HJcVA"
+    },
+    {
+        "email": "employer1@gmail.com",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjA2NDkxOGQwZDQyMTg2YWFjZGE5NzZmIn0sImlhdCI6MTYxNzIyMjUzNSwiZXhwIjoxNjE3MjU4NTM1fQ.jmiT_Pk9-jmH9GL5WVrogV8KpdfYCIWKcnzzj-HJcVA"
+    }
+]

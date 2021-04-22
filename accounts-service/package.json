@@ -1,0 +1,45 @@
+{
+  "name": "accounts-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BlueOcean-2021/accounts-service.git",
+  "author": "Michael <kllmmc23@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "dev": "nodemon -r esm server.js",
+    "test": "jest --detectOpenHandles --forceExit --collect-coverage",
+    "docker-build": "docker build -t accounts-api:1.0 .",
+    "docker-run": "docker run --name accounts-api -d --env-file .env-docker -p 4000:4000 accounts-api:1.0",
+    "docker-login": "aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 816674678256.dkr.ecr.us-east-2.amazonaws.com",
+    "docker-push": "docker tag accounts-api:1.0 816674678256.dkr.ecr.us-east-2.amazonaws.com/accounts-api:1.0 & docker push 816674678256.dkr.ecr.us-east-2.amazonaws.com/accounts-api:1.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "\\.js$": "jest-esm-transformer"
+    }
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bson": "^4.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "loglevel": "^1.7.1",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "jest": "^26.6.3",
+    "jest-esm-transformer": "^1.0.0"
+  }
+}

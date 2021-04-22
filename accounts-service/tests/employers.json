@@ -1,0 +1,10 @@
+[
+    {
+        "id": "20001",
+        "email": "employer1@gmail.com",
+        "company": "Company # 1Inc.",
+        "firstName": "Employer #1",
+        "lastName": "Last name #1",
+        "location": "Denver"
+    }
+]
