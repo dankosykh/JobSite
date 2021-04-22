@@ -37,10 +37,10 @@ Accounts-service contains source code and database for user authentication.
 Product Manager & Full Stack Engineer
 
 #### Michael Elliott
-Architecture Co-owner & Dev-ops
+Architecture Owner & Dev-ops
 
 #### Daniel Kosykh
-Architecture Co-owner & Backend Engineer
+Backend Engineer
 
 #### Jacob Peterson
 UI/UX Owner & Frontend Engineer
@@ -53,6 +53,8 @@ Frontend Engineer
 
 ## To launch is provided per folder README.md.
 This requires 3 separate server instances.
+
+## Original project repository for backend can be found [here]: https://github.com/BlueOcean-2021/backend-jobsite
 
 ## Gallery
 
