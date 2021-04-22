@@ -31,6 +31,8 @@ Frontend-jobsite contains source code for the front-end components and styles.
 Backend-jobsite contains source code for the backend server, routers, and database.
 Accounts-service contains source code and database for user authentication.
 
+#### Original project repository for backend can be found [here](https://github.com/BlueOcean-2021/backend-jobsite)
+
 ## Team Responsibilities
 
 #### Michael Smith - Product Manager & Full Stack Engineer
@@ -47,8 +49,6 @@ Accounts-service contains source code and database for user authentication.
 
 ## To launch is provided per folder README.md.
 This requires 3 separate server instances.
-
-## Original project repository for backend can be found [here](https://github.com/BlueOcean-2021/backend-jobsite)
 
 ## Gallery & Demos
 
