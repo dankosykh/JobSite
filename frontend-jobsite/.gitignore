@@ -1,0 +1,6 @@
+node_modules
+*.pem
+.DS_Store
+client/dist/bundle.js
+.env
+coverage
